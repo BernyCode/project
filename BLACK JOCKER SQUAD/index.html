@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Black jocker customs</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="navBar box" >
+	<div class="logo"><img src="images/logow.png" href="#"></div>
+	<div class="menu_btn" onclick="show();">
+		<div class="burger_btn"></div>
+	</div>
+	<div class="nav_links box" id="toggleNav">
+		<span class="closeBtn" onclick="hide()"> ↑</span>
+	<ul>
+		<li><a href="#produi">PRODUI </a></li>
+		<li><a href="#saNouFe">SA NOU FE</a></li>
+		<li><a href="#kontak">KONTAK</a></li>
+	</ul>
+	</div>
+</div>
+	<div class="section1 box">
+		<p>BLACK JOCKER <span>CUSTOMS</span></p>
+		<div class="section1_btn"><a href="#">COMMAND</a></div>
+	</div>
+	<div class="section_fusion">
+	<div class="section2 box">
+		<h2 id="produi">Produi nou yo</h2>
+
+		
+		<div class="viewer"><li><img src="images/nike1.jpg" class="viewer_img"></li></div>
+		<div class="viewerOption">
+			<ul>
+				<li><img src="images/nike1.jpg" onclick="imgSlider('images/nike1.jpg');"></li>
+				<li><img src="images/nike2.jpg" onclick="imgSlider('images/nike2.jpg');"></li>
+				<li><img src="images/nike3.jpg" onclick="imgSlider('images/nike3.jpg');"></li>
+			</ul>
+		</div>
+	
+		
+		
+
+	</div>
+
+		<div class="section3 box">
+			<h2 id="saNouFe">SA NOU FE</h2>
+			<div class="about_container">
+				<div lass="img_container"></div>
+				<P><em> NAN BLACK JOCKER CUSTOMS</em> <b>NOU BAY TENIS</b>
+ YON LOT <span>FIGI</span> .</P>
+			</div>
+		</div>
+		</div>
+
+		<footer class="footer  box">
+			<p class="socials" id="kontak">
+					<a href="#"><img src="images/fb.png"></a>
+						<a href="#"><img src="images/tw.png"></a>
+								<a href="#"><img src="images/mail_icon.png"></a>
+			</p>
+			<p>Copyright 2021</p>
+			<p>Kontakte nou nan nimero sa yo<br> <em>50911111111</em> / <em>50922222222</em></p>
+			<p>follow us on social medias @BjSquad</p>
+		</footer>
+		<script type="text/javascript">
+			function show(){
+				document.getElementById('toggleNav').style.top="70px";
+			}
+				function hide(){
+				document.getElementById('toggleNav').style.top="-200px";
+			}
+
+
+			function imgSlider(anything){
+			document.querySelector('.viewer_img').src = anything;
+		}
+
+		</script>
+
+</body>
+</html>
